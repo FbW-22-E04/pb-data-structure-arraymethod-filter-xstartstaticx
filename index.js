@@ -24,7 +24,6 @@ function filterRangeInPlace(arr, a, b) {
   for (item of filtered) {
     arr.push(item);
   }
-  return arr;
 }
 let array = [5, 3, 8, 1];
 filterRangeInPlace(array, 1, 4); // removed the numbers except from 1 to 4
